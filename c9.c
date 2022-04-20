@@ -1,12 +1,15 @@
-#include <stdio.h>
+// Deallocating a memory pointed by ptr causes
+// dangling pointer
 #include <stdlib.h>
-
-main() {
-
-char* p = (char*) malloc(10);
-if ( p ) {
-  P[0] = ´X´;
-  free(p);
-  p[0] = ´Y´;
-}
+#include <stdio.h>
+int main()
+{
+    int *ptr = (int *)malloc(sizeof(int));
+  
+    // After below free call, ptr becomes a 
+    // dangling pointer
+    free(ptr); 
+      
+    // No more a dangling pointer
+    ptr = NULL;
 }
