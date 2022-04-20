@@ -10,6 +10,6 @@ int main()
     // dangling pointer
     free(ptr); 
       
-    // No more a dangling pointer
-    ptr = NULL;
+    // No more a dangling pointer: ptr = NULL;
+    
 }
