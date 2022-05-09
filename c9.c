@@ -1,5 +1,5 @@
-// Deallocating a memory pointed by ptr causes
-// dangling pointer
+// TEST-File: Deallocating a memory pointed by ptr causes dangling pointer
+
 #include <stdlib.h>
 #include <stdio.h>
 int main()
