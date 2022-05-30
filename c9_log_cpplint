@@ -1,0 +1,13 @@
+user@notebook:~/c9$ cpplint c9.c
+c9.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+c9.c:6:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+c9.c:7:  Using C-style cast.  Use reinterpret_cast<int *>(...) instead  [readability/casting] [4]
+c9.c:8:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+c9.c:9:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+c9.c:11:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+c9.c:12:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+c9.c:14:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+c9.c:14:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]
+Done processing c9.c
+Total errors found: 9
+
